@@ -1,0 +1,14 @@
+.meetup_album_images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meetup_album_images .meetup_image {
+    width: 20%;
+    padding: 0 10px;
+    min-height: 200px;
+}
+
+.meetup_album_images .lazy {
+
+}

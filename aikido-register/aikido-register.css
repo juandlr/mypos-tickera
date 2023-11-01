@@ -1,0 +1,135 @@
+.aikido-register-form tr {
+    background: #F7F7F7;
+}
+
+.aikido-register-form tr {
+    background: #F7F7F7;
+}
+
+.aikido-register-form table td {
+    padding: 10px 10px;
+    border: none;
+}
+
+.aikido-register-form input[type='text'], .aikido-register-form input[type='email'], .aikido-register-form input[type='password'] {
+    width: 100% !important;
+}
+
+.div-5 {
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.qty {
+    display: none;
+}
+
+#ppform {
+    display: none;
+}
+
+#membership-card {
+    position: relative;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#membership-card #card-details {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+}
+
+#membership-card h1 {
+    font-family: inherit;
+    font-size: 20px;
+    margin-bottom: 0px;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+#membership-card h2 {
+    font-family: inherit;
+    font-size: 15px;
+    margin-top: 0px;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#membership-card p {
+    font-size: 12px;
+    margin-bottom: 0px;
+    font-family: 'Inconsolata';
+
+}
+
+#membership-card p span {
+    color: #938d93;
+    margin-right: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    #membership-card h1 {
+        font-size: 30px;
+        margin-bottom: 0px;
+        line-height: 1.2;
+        font-weight: normal;
+    }
+
+    #membership-card h2 {
+        font-size: 25px;
+        margin-top: 0px;
+        line-height: 1;
+    }
+
+    #membership-card p {
+        font-size: 27px;
+        margin-bottom: 0px;
+        font-family: 'Inconsolata';
+
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    #membership-card h1 {
+        font-size: 40px;
+        margin-bottom: 0px;
+        line-height: 1.2;
+        font-weight: normal;
+    }
+
+    #membership-card h2 {
+        font-size: 30px;
+        margin-top: 0px;
+        line-height: 1;
+    }
+
+    #membership-card p {
+        font-size: 20px;
+        margin-bottom: 0px;
+        font-family: 'Inconsolata';
+
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+

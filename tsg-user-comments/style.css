@@ -1,0 +1,27 @@
+.user-comment {
+    margin-bottom: 20px;
+}
+.user-comment i.fa-long-arrow-right {
+    color: #dcdcdc;
+    margin-right: 10px;
+}
+.user-comment h6 {
+    margin-bottom: 5px !important;
+    margin-top: 0px !important;
+}
+.user-comment p {
+    margin-bottom: 5px;
+}
+.user-comment .user-comment-body * {
+    font-size: 1.4rem;
+}
+.comment-by {
+    background: #f2f2f2;
+    padding: 2px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.tgs-soon {
+    background: #f2f2f2;
+    padding: 2px;
+}

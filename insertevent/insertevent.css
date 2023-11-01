@@ -1,0 +1,9 @@
+#cutom-authentication-form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+#custom-authentication-form input {
+  margin: 10px 0px;
+}

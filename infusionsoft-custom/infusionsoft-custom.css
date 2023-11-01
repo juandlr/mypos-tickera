@@ -1,0 +1,6 @@
+#infusionsoft-custom input[type='submit'] {
+    margin-top: 20px;
+}
+#infusionsoft-custom #result {
+    display: none;
+}
