@@ -16,7 +16,7 @@ define('MEMBERS_URL', '/arkitekt-members');
 class ArkitektMembers
 {
 
-    function __construct()
+    public function __construct()
     {
         global $wpdb;
         session_start();
@@ -55,12 +55,12 @@ class ArkitektMembers
         add_filter('login_redirect', [$this, 'loginRedirect'], 10, 3);
     }
 
-    function enqueueScripts()
+    public function enqueueScripts()
     {
         wp_enqueue_style('arkitekt-members', plugins_url('styles.css', __FILE__));
     }
 
-    function disableAdminBar()
+    public function disableAdminBar()
     {
         if (current_user_can('arkitekt_member')) {
             // user can view admin bar
@@ -68,7 +68,7 @@ class ArkitektMembers
         }
     }
 
-    function loginRedirect($redirect_to, $request, $user)
+    public function loginRedirect($redirect_to, $request, $user)
     {
         //is there a user to check?
         global $user, $members_url;
@@ -80,7 +80,7 @@ class ArkitektMembers
         return $redirect_to;
     }
 
-    function install()
+    public function install()
     {
         global $wpdb;
 
