@@ -16,7 +16,7 @@ class Member
         add_action('init', [$this, 'updateMember']);
     }
 
-    function createMember()
+    public function createMember()
     {
         global $wpdb;
         $errors = [];
@@ -72,7 +72,7 @@ class Member
         }
     }
 
-    function updateMember()
+    public function updateMember()
     {
         global $wpdb;
         if (isset($_POST['update_button'])) {
